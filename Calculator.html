@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-info">
+<a class="navbar-brand border border-light" href="#"> 
+    <img class="imgLogo" src="th.jpg" alt="logo">
+    Calculator App</a>
+    </nav>
+
+    <form> 
+        <div class="container  stylePad">
+          <div class="row rowMargin">
+            <div id="main" class="col-md-4 border border-primary stylePad">
+                <div class="container conPad">
+                  <div class="row rowMargin">
+                    <div class="col-sm-12">
+                        <input type="number" class="border-primary">
+                        <label for="input1">Input 1</label>
+                    </div>
+                  </div>
+                  <div class="row rowMargin">
+                    <div class="col-sm-12">
+                      <input type="number" class="border-primary">
+                      <label for="input1">Input 2</label>
+                    </div>
+                  </div>
+                    <div class="row rowMargin">
+                      <div class="col-sm-12">
+                        <input type="number" class="border-danger">
+                        <label for="input1">Answer</label>
+                      </div>
+                    </div>
+                      <div class="row rowMargin text-white text-center">
+                        <div class="col-sm-2  bg-info colMargin">7</div>
+                        <div class="col-sm-2 bg-warning colMargin">8</div>
+                        <div class="col-sm-2 bg-secondary colMargin">9</div>
+                        <button class="col-sm-2  text-center bg-success colMargin">+</button>
+                      </div>
+                      <div class="row rowMargin text-white text-center ">
+                        <div class="col-sm-2 bg-warning colMargin">4</div>
+                        <div class="col-sm-2  bg-secondary colMargin">5</div>
+                        <div class="col-sm-2 bg-success colMargin">6</div>
+                        <button class="col-sm-2  text-center bg-primary colMargin">-</button>
+                      </div>
+                      <div class="row rowMargin text-white  text-center ">
+                        <div class="col-sm-2 bg-secondary colMargin">1</div>
+                        <div class="col-sm-2 bg-success colMargin">2</div>
+                        <div class="col-sm-2 bg-primary colMargin">3</div>
+                        <button class="col-sm-2 text-center bg-warning colMargin">X</button>
+                      </div>
+                      <div class="row rowMargin text-white  text-center">
+                        <button type = reset class="col-sm-2 text-center bg-success colMargin"><-</button>
+                        <div class="col-sm-2  text-white bg-primary colMargin">0</div>
+                        <button class="col-sm-2 text-center bg-warning colMargin">=</button>
+                        <button class="col-sm-2 text-center bg-info colMargin ">%</button>
+                      </div>
+        
+                    </div>
+                  </div>
+                </div>
+            </div>
+       
+        </form>
+
+        <footer class="py-1 fixed-bottom bg-info text-white-50">
+            <div class="container text-center">
+              <small>Copyright &copy; ICTAK </small>
+            </div>
+          </footer>
+
+</body>
+</html>

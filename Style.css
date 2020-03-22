@@ -1,0 +1,23 @@
+.navbar-dark .navbar-brand {
+    color:#fff;
+    padding-right: 5px;
+}
+.imgLogo{
+    width:40px;
+    margin-left: 5px;
+}
+#main{
+background-color: whitesmoke;
+}
+.stylePad{
+padding:20px;
+}
+.conPad{
+padding: 5px;
+}
+.rowMargin{
+    margin: 3px;
+}
+.colMargin{
+    margin: 5px;
+}
